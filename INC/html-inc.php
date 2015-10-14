@@ -26,7 +26,7 @@ else {
 	return '';}
 }
 function data($data){
-if ($data){
+if ($data and strtotime($data)){
 $anno=SubStr($data,0,4);
 $mese=SubStr($data,5,2);
 $giorno=SubStr($data,8,2);
