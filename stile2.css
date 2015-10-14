@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+ 
+#form {
+    width: 500px;
+    margin: 50px auto;
+    background: #222;
+    padding: 25px;
+    overflow: hidden;
+ 
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+ 
+h1 {
+    font-size: 16px;
+    color: #FCCC69;
+    margin-bottom: 20px;
+}
+
+label, input, textarea { /* Stili comuni agli elementi del form */
+    color: #dedede; /* Colore del testo */
+    float: left; /* Float a sinistra */
+    font-family: Verdana, sans-serif; /* Tipo di carattere per il testo */
+    margin: 10px 0; /* Margini */
+}
+label { /* Stili per la label */
+    display: block; /* Impostiamo la label come elemento blocco */
+    line-height: 30px; /* Altezza di riga */
+    width: 150px; /* Larghezza */
+}
+ 
+input, textarea { /* Stili per il campo di testo e per la textarea */
+    background: #1C1C1C; /* Colore di sfondo */
+    border: 1px solid #323232; /* Bordo */
+    color: #fff; /* Colore del testo */
+    height: 30px; /* Altezza */
+    line-height: 30px; /* Altezza di riga */
+    width: 300px; /* Larghezza */
+    padding: 0 10px; /* Padding */
+}
+ 
+input { padding-left: 30px;
+ 
+textarea { /* Stili specifici per la teaxtarea */
+    background: #1C1C1C url('images/social_balloon.png') no-repeat 235px 95px; /* Sfondo con immagine */
+    font-size: 12px;
+    height: 200px;
+    width: 320px;
+    overflow: hidden; /* disabilitare la scrollbar in IE */
+}
+
+#nome  { background: #1C1C1C url('images/user_red.png') no-repeat 7px; }
+#email { background: #1C1C1C url('images/email.png') no-repeat 7px; }
+#submit {
+    padding: 0;
+    width: 100px;
+}

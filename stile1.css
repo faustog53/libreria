@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+tr {background-color: #efefef;}
+tr:hover {background-color: #dedede;}
+
+* { margin: 0; padding: 0; }
+
+body {
+    background: #F6F9FE;
+    color: #333;
+    font-family: Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+form { margin: 0px; }
+fieldset { border: none; }
+legend { font-size: 16px; font-weight: bold; }
+fieldset fieldset legend {
+    font-size: 12px;	
+    font-weight: bold;
+    padding: 0px 0;
+}
+
+ul li { list-style: none; margin: 0px 0px; }
+A questo punto possiamo iniziare ad assegnare dello stile ai singoli elementi.
+
+input, textarea, select {
+    border: 1px solid #C6CFE2;
+    background: #F7FBFE;
+    padding: 0px;
+}
+label {
+    padding: 0px;
+    width: 80px;
+    display: block;
+    float: left;
+    font-weight: bold;
+}
+fieldset fieldset label {
+    margin-left: 10px;
+    width: 30px;
+}
+fieldset fieldset input {
+    border: none;
+    float: left;
+    margin: 0 20px 0 15px;
+}
+
+#submit {
+    background: #69B1D9;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px 0px;
+}
